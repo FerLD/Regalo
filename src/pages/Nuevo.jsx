@@ -191,7 +191,7 @@ function Nuevo() {
                   <img src="/Img/Reverso-azul.jpg" alt="Card back" />
                 </div>
                 <div className="card-back">
-                  <img src="/Img/k-negra.jpg" alt="Card front" />
+                  <img src="/Img/K-negra.jpg" alt="Card front" />
                 </div>
               </div>
             </div>
