@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', cursive;
+  background: repeating-linear-gradient(
+    90deg,
+    #dbeafe,
+    #dbeafe 50px,
+    #f8fafc 50px,
+    #f8fafc 100px
+  );
+}
+
+/* Contenedor */
+.contenedor {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Sobre */
+.sobre {
+  position: relative;
+  width: 250px;
+  height: 180px;
+  background: #f1f5f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Tapa */
+.tapa {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #bfdbfe;
+  clip-path: polygon(0 0, 100% 0, 50% 50%);
+  transition: transform 0.8s;
+  transform-origin: top;
+}
+
+.sobre.abrir .tapa {
+  transform: rotateX(180deg);
+}
+
+/* Carta */
+.carta {
+  position: absolute;
+  bottom: -100%;
+  width: 90%;
+  left: 5%;
+  background: white;
+  padding: 15px;
+  font-size: 12px;
+  border-radius: 5px;
+  transition: 0.8s;
+}
+
+.carta.mostrar {
+  bottom: 20%;
+}
+
+/* Corazones */
+.corazones {
+  position: absolute;
+  bottom: 100px;
+}
+
+.corazon {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #60a5fa;
+  transform: rotate(45deg);
+  animation: subir 2s linear infinite;
+}
+
+.corazon::before,
+.corazon::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #60a5fa;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.corazon::before {
+  top: -5px;
+  left: 0;
+}
+
+.corazon::after {
+  left: -5px;
+  top: 0;
+}
+
+/* Animación */
+@keyframes subir {
+  0% {
+    transform: translateY(0) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-200px) rotate(45deg);
+    opacity: 0;
+  }
+}

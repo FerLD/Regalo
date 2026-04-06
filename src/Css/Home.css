@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  background: #fdf6f6;
+  font-family: "Courier New", monospace;
+}
+
+.home-container {
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* ✍️ TEXTO */
+.typewriter {
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  color: #333;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* 🌳 ÁRBOL */
+.tree {
+  position: relative;
+  margin: 0 auto;
+  width: 100px;
+  height: 200px;
+}
+
+.trunk {
+  width: 20px;
+  height: 120px;
+  background: #8b5a2b;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* 💖 CORAZONES */
+.heart {
+  position: absolute;
+  top: -10px;
+  width: 15px;
+  height: 15px;
+  background: pink;
+  transform: rotate(45deg);
+  animation: fall linear infinite;
+}
+
+.heart::before,
+.heart::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: pink;
+  border-radius: 50%;
+}
+
+.heart::before {
+  top: -8px;
+  left: 0;
+}
+
+.heart::after {
+  left: -8px;
+  top: 0;
+}
+
+/* 🌧️ CAÍDA SUAVE */
+@keyframes fall {
+  0% {
+    transform: translateY(-10px) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(90vh) rotate(45deg);
+    opacity: 0.7;
+  }
+}
+
+/* 🧸 OSITOS */
+.bears {
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+/* ⏱️ CONTADOR */
+.counter {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #444;
+}
