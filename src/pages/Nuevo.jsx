@@ -177,10 +177,10 @@ function Nuevo() {
             <div className="card">
               <div className="card-inner">
                 <div className="card-front">
-                  <img src="/public/Img/Reverso-roja.jpg" alt="Card back" />
+                  <img src="/Img/Reverso-roja.jpg" alt="Card back" />
                 </div>
                 <div className="card-back">
-                  <img src="/public/Img/A-roja.jpg" alt="Card front" />
+                  <img src="/Img/A-roja.jpg" alt="Card front" />
                 </div>
               </div>
             </div>
@@ -188,10 +188,10 @@ function Nuevo() {
             <div className="card">
               <div className="card-inner">
                 <div className="card-front">
-                  <img src="/public/Img/Reverso-azul.jpg" alt="Card back" />
+                  <img src="/Img/Reverso-azul.jpg" alt="Card back" />
                 </div>
                 <div className="card-back">
-                  <img src="/public/Img/k-negra.jpg" alt="Card front" />
+                  <img src="/Img/k-negra.jpg" alt="Card front" />
                 </div>
               </div>
             </div>
@@ -199,10 +199,10 @@ function Nuevo() {
             <div className="card">
               <div className="card-inner">
                 <div className="card-front">
-                  <img src="/public/Img/Reverso-roja.jpg" alt="Card back" />
+                  <img src="/Img/Reverso-roja.jpg" alt="Card back" />
                 </div>
                 <div className="card-back">
-                  <img src="/public/Img/K-roja.jpg" alt="Card front" />
+                  <img src="/Img/K-roja.jpg" alt="Card front" />
                 </div>
               </div>
             </div>
@@ -210,10 +210,10 @@ function Nuevo() {
             <div className="card">
               <div className="card-inner">
                 <div className="card-front">
-                  <img src="/public/Img/Reverso-azul.jpg" alt="Card back" />
+                  <img src="/Img/Reverso-azul.jpg" alt="Card back" />
                 </div>
                 <div className="card-back">
-                  <img src="/public/Img/Q-negra.jpg" alt="Card front" />
+                  <img src="/Img/Q-negra.jpg" alt="Card front" />
                 </div>
               </div>
             </div>
@@ -221,10 +221,10 @@ function Nuevo() {
             <div className="card">
               <div className="card-inner">
                 <div className="card-front">
-                  <img src="/public/Img/Reverso-roja.jpg" alt="Card back" />
+                  <img src="/Img/Reverso-roja.jpg" alt="Card back" />
                 </div>
                 <div className="card-back">
-                  <img src="/public/Img/Q-roja.jpg" alt="Card front" />
+                  <img src="/Img/Q-roja.jpg" alt="Card front" />
                 </div>
               </div>
             </div>
